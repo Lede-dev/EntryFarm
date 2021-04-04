@@ -1,0 +1,38 @@
+name: EntryFarm
+main: me.lede.entry.EntryFarm
+author: Lede
+website: https://github.com/Youtube-Lede
+version: 1.0.0
+api-version: 1.13
+commands:
+  Command.Custom.Menu.Default:
+    permission: user.menu.command
+    aliases: [메뉴, apsb]
+  ent.mine.getitem:
+    permission: admin.mine.getitem
+    aliases: [광물생성기]
+  ent.exp.sort:
+    permission: admin.exp.sort
+  ent.exp.alter:
+    permission: user.exp.alter
+    aliases: [제단, wpeks, alter]
+  ent.exp.setting:
+    permission: admin.exp.setting
+  ent.exp.coupon:
+    permission: admin.exp.coupon
+  ent.exp.show:
+    permission: user.exp.show
+    aliases: [레벨, 경험치, exp, level, fpqpf, rudgjacl]
+  ent.skill.ticket:
+    permission: admin.skill.ticket
+  ent.skill.show:
+    permission: user.skill.show
+    aliases: [스킬, 스킬창, tmzlf, tmzlfckd, skill]
+  ent.skill.fly:
+    permission: user.skill.fly
+    aliases: [fly, vmffkdl, 플라이]
+  ent.util.type:
+    permission: admin.util.type
+  ent.shop.create:
+    permission: admin.shop.create
+  

@@ -1,0 +1,87 @@
+#메세지
+MSG_ADDEXP: "&f경험치를 획득하였습니다. &a+%exp%"
+MSG_LEVELUP: "&f레벨업. &a+1 &6[ %level% ]"
+
+#최대 레벨
+LEVEL_MAX: 100
+
+#추가 레벨 최대치
+LEVEL_ADDITIONAL_MAX: 10
+
+#추가 레벨 쿠폰 이름
+LEVEL_ADDITIONAL_COUPON: "&e추가 레벨 확장권"
+
+#초기 레벨업 경험치
+EXP_BASIC: 1000.0
+
+#레벨 업 요구 경험치 증가 비율 1 ~ 10000 : 1 = 0.01%, 10000 = 100% 
+EXP_INCREASE_RATE: 1000 # 10%
+
+#레벨당 스킬포인트 지급량
+SKILL_POINT: 3
+
+#레벨업 스킬포인트 요구치 | 스킬 레벨 = 스킬에 투자한 포인트 / 요구치
+SKILL_UPGRADE:
+  MINING: 1
+  HARVESTING: 1
+  JUMP: 10
+  AFFINITY: 1
+  
+#스킬포인트 최대 투자 가능 수치
+SKILL_UPGRADE_MAX:
+  MINING: 100
+  HARVESTING: 100
+  JUMP: 10
+  AFFINITY: 100
+
+#스킬 효과 1렙당 증가량
+SKILL_EFFECT:
+  MINING: 0.1
+  HARVESTING: 0.1
+  AFFINITY: 0.1
+
+#경험치 생성량
+EXP_CREATE:
+  #농작물 + 식료품 (완제품, 음식 X)
+  CARROT_ITEM: 1
+  POTATO_ITEM: 1
+  POISONOUS_POTATO: 1
+  BEETROOT: 1
+  WHEAT: 1
+  MELON: 1
+  MELON_BLOCK: 1
+  PUMPKIN: 1
+  SUGAR_CANE: 1
+  APPLE: 1
+  RAW_FISH: 1
+  #광물 원석
+  STONE: 1
+  COBBLESTONE: 1
+  COAL_ORE: 1
+  IRON_ORE: 1
+  GOLD_ORE: 1
+  LAPIS_ORE: 1
+  DIAMOND_ORE: 1
+  EMERALD_ORE: 1
+  #광물 블럭
+  COAL_BLOCK: 1
+  LAPIS_BLOCK: 1
+  IRON_BLOCK: 1
+  GOLD_BLOCK: 1
+  DIAMOND_BLOCK: 1
+  EMERALD_BLOCK: 1
+  #광물 아이템
+  COAL: 1
+  IRON_INGOT: 1
+  GOLD_INGOT: 1
+  DIAMOND: 1
+  EMERALD: 1
+  #광물 조각
+  GOLD_NUGGET: 1
+  IRON_NUGGET: 1
+  #염료 (청금석, 코코아 콩, 뼛가루 등..)
+  INK_SACK: 1
+  
+  
+  
+  
